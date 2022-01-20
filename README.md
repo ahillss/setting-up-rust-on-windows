@@ -107,7 +107,7 @@ You can also choose between debug and release modes by clicking on the "Run and 
 
 ## Global Config (optional)
 
-Instead of storing launch in the project, you store it in the global settings file. eg ```data\user-data\User\settings.json```.
+Instead of storing launch in the project, you store it in the global settings file. eg ```c:\vscode\data\user-data\User\settings.json``` or ```%APPDATA%\code\user\settings.json```.
 
 ```json
 {
