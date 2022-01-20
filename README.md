@@ -59,7 +59,7 @@ Create a ```tasks.json``` for your project (eg ```c:\Projects\hello\.vscode\task
 
 Run with shortcut ```Ctrl + Shift + B```.
 
-### Using launch
+### Using launch (optional)
 
 Create ```launch.json```. eg ```c:\Projects\hello\.vscode\launch.json```.
 
