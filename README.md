@@ -14,7 +14,7 @@ Quick guide to setting up rust development on Windows, since information I found
 
 ## Rust up
 
-By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.rustup```. You move it to a more convient location by adding/modifying:
+By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.rustup```. You move it to a more convient location by adding/modifying the windows environment variables:
 
 * ```CARGO_HOME```
 * ```RUSTUP_HOME```
