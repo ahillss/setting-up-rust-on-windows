@@ -14,21 +14,19 @@ Quick guide to setting up rust development on Windows, since information I found
 
 ## Rust up
 
-By default is installed in your ```%USERPROFILE%\.cargo```
+By default is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.rustup```. You move it to a more convient location by adding/modifying:
 
-```CARGO_HOME```
-```RUSTUP_HOME```
-```PATH``` ```cargo\bin```
+* ```CARGO_HOME```
+* ```RUSTUP_HOME```
+* ```PATH```
 
-## Config
+## Project Config
 
-### project
-
-#### workspace
+### workspace
 
 In vs code, goto file, save workspace as, and save to your project's directory. eg ```c:\Projects\hello\workspace.code-workspace```.
 
-#### compile using tasks (optional)
+### compile using tasks (optional)
 
 Create a ```tasks.json``` for your project (eg ```c:\Projects\hello\.vscode\tasks.json```).
 
@@ -61,16 +59,9 @@ Create a ```tasks.json``` for your project (eg ```c:\Projects\hello\.vscode\task
 
 Run with shortcut ```Ctrl + Shift + B```.
 
-The 
+### Using launch
 
-* **vs code project settings**
-
-Also create a folder ```.vscode``` in your project folder. 
-
-You can also create an optional ```tasks.json``` in the ```.vscode folder```. eg ```c:\Projects\hello\.vscode\tasks.json```.
-
-
-Create a ```launch.json``` in the ```.vscode`` folder. eg ```c:\Projects\hello\.vscode\launch.json```.
+Create ```launch.json```. eg ```c:\Projects\hello\.vscode\launch.json```.
 
 ```json
 
@@ -112,14 +103,9 @@ Create a ```launch.json``` in the ```.vscode`` folder. eg ```c:\Projects\hello\.
 ```
 
 
-### global
+## Global Config (optional)
 
-* **vs code settings**
-
-In ```data\user-data\User\settings.json``` (optional)
-
-
-You could also optionally put the launch code in ```data\user-data\User\settings.json```:
+Instead of storing launch in the project, you store it in the global settings file. eg ```data\user-data\User\settings.json```.
 
 ```json
 {
