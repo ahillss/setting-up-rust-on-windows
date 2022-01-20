@@ -62,3 +62,96 @@ You can also create an optional ```tasks.json``` in the ```.vscode folder```. eg
 	]
 }
 ```
+
+Create a ```launch.json``` in the ```.vscode`` folder. eg ```c:\Projects\hello\.vscode\launch.json```.
+
+```json
+
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "cargo",
+            "args": ["run"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "env" : {
+                //"RUST_BACKTRACE" : "1",
+                //"RUST_LOG": "debug",
+            }
+        },
+        
+        {
+            "name": "Release",
+            "type": "lldb",
+            "request": "launch",
+            "program": "cargo",
+            "args": [
+                "run", "--release"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true
+        }
+    ]
+}
+```
+
+You could also optionally put the launch code in ```data\user-data\User\settings.json```:
+
+```json
+{
+
+    "launch": {
+        "configurations": [
+
+            {
+                "name": "Debug",
+                "type": "lldb",
+                "request": "launch",
+                "program": "cargo",
+                "args": ["run"],
+                "stopAtEntry": false,
+                "cwd": "${workspaceRoot}",
+                "environment": [],
+                "externalConsole": true,
+                "env" : {
+                    //"RUST_BACKTRACE" : "1",
+                    //"RUST_LOG": "debug",
+                }
+            },
+            
+            {
+                "name": "Release",
+                "type": "lldb",
+                "request": "launch",
+                "program": "cargo",
+                "args": [
+                    "run", "--release"
+                ],
+                "stopAtEntry": false,
+                "cwd": "${workspaceRoot}",
+                "environment": [],
+                "externalConsole": true
+            }
+        ]
+    },
+    
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.accessibilitySupport": "off",
+    "debug.allowBreakpointsEverywhere": true,
+    "task.quickOpen.detail": false,
+    "task.quickOpen.skip": true,
+    "task.quickOpen.history": 1,
+    "terminal.integrated.showExitAlert": false,
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.integrated.confirmOnKill": "never"
+}
+```
