@@ -1,6 +1,6 @@
 # Rust On Windows Guide
 
-Quick guide to setting up rust development on Windows, since information I found was very confusing.
+Quick guide to setting up rust development on Windows.
 
 ## Installing
 
