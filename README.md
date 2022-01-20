@@ -164,3 +164,14 @@ Instead of storing launch in the project, you store it in the global settings fi
 ### Breakpoints
 
 I could only get breakpoints working by going to the ```main``` function in my project and clicking the "Debug" text button above it.
+
+### Modifying external crates
+
+If you have an issue with an external crate library, you can find its source from somewhere in ```.cargo\library\``` and copy it else where and modify it.
+
+Then in your ```cargo.toml``` file add something like:
+
+```toml
+[patch.crates-io]
+gilrs-core = { path = "../crates/gilrs-core-0.3.1" }
+```
