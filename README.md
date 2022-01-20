@@ -1,4 +1,4 @@
-# Rust On Windows Quick Guide
+# Rust On Windows Guide
 
 Quick guide to setting up rust development on Windows, since I had a difficult time finding coherent information on this.
 
