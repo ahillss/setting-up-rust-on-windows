@@ -2,6 +2,8 @@
 
 Quick guide to setting up rust development on Windows, since information I found was very confusing.
 
+## Installing
+
 * **rust up** - x86_64-pc-windows-msvc from [Other Rust Installation Methods](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
 * **vs build tools** - *rust up* should download this for you, select and install **Desktop Development with C++**
@@ -10,28 +12,24 @@ Quick guide to setting up rust development on Windows, since information I found
 
 * **vs code extensions** - [better toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml), [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and [rust analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) (the alternate [rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) extension wasn't showing inferred types for me)
 
-* **vs code settings**
+## Config
 
-In ```data\user-data\User\settings.json``` (optional)
+### project
 
-```json
-{
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.accessibilitySupport": "off",
-    "debug.allowBreakpointsEverywhere": true,
-    "task.quickOpen.detail": false,
-    "task.quickOpen.skip": true,
-    "task.quickOpen.history": 1,
-    "terminal.integrated.showExitAlert": false,
-    "debug.terminal.clearBeforeReusing": true,
-    "terminal.integrated.confirmOnKill": "never"
-}
-
-```
-
-* **vs code project settings**
+#### workspace
 
 In vs code, goto file, save workspace as, and save to your project's directory. eg ```c:\Projects\hello\workspace.code-workspace```.
+
+#### compile using tasks (optional)
+
+Create a ```tasks.json``` for your project (eg ```c:\Projects\hello\.vscode\tasks.json```).
+
+
+Run with shortcut ```Ctrl + Shift + B```.
+
+The 
+
+* **vs code project settings**
 
 Also create a folder ```.vscode``` in your project folder. 
 
@@ -103,6 +101,14 @@ Create a ```launch.json``` in the ```.vscode`` folder. eg ```c:\Projects\hello\.
     ]
 }
 ```
+
+
+### global
+
+* **vs code settings**
+
+In ```data\user-data\User\settings.json``` (optional)
+
 
 You could also optionally put the launch code in ```data\user-data\User\settings.json```:
 
