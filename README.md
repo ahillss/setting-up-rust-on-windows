@@ -101,7 +101,9 @@ Create ```launch.json```. eg ```c:\Projects\hello\.vscode\launch.json```.
     ]
 }
 ```
+Run by pressing the ```F5``` key.
 
+You can also choose between debug and release modes by clicking on the "Run and Debug" sidebar menu or using the shortcut ```Ctrl+Shift+D```.
 
 ## Global Config (optional)
 
@@ -156,3 +158,9 @@ Instead of storing launch in the project, you store it in the global settings fi
     "terminal.integrated.confirmOnKill": "never"
 }
 ```
+
+## Misc
+
+### Breakpoints
+
+I could only get breakpoints working by going to the ```main``` function in my project and clicking the "Debug" text button above it.
