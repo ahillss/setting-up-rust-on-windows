@@ -12,6 +12,14 @@ Quick guide to setting up rust development on Windows, since information I found
 
 * **vs code extensions** - [better toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml), [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and [rust analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) (the alternate [rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) extension wasn't showing inferred types for me)
 
+## Rust up
+
+By default is installed in your ```%USERPROFILE%\.cargo```
+
+```CARGO_HOME```
+```RUSTUP_HOME```
+```PATH``` ```cargo\bin```
+
 ## Config
 
 ### project
@@ -24,16 +32,6 @@ In vs code, goto file, save workspace as, and save to your project's directory. 
 
 Create a ```tasks.json``` for your project (eg ```c:\Projects\hello\.vscode\tasks.json```).
 
-
-Run with shortcut ```Ctrl + Shift + B```.
-
-The 
-
-* **vs code project settings**
-
-Also create a folder ```.vscode``` in your project folder. 
-
-You can also create an optional ```tasks.json``` in the ```.vscode folder```. eg ```c:\Projects\hello\.vscode\tasks.json```.
 
 ```json
 {
@@ -60,6 +58,17 @@ You can also create an optional ```tasks.json``` in the ```.vscode folder```. eg
 	]
 }
 ```
+
+Run with shortcut ```Ctrl + Shift + B```.
+
+The 
+
+* **vs code project settings**
+
+Also create a folder ```.vscode``` in your project folder. 
+
+You can also create an optional ```tasks.json``` in the ```.vscode folder```. eg ```c:\Projects\hello\.vscode\tasks.json```.
+
 
 Create a ```launch.json``` in the ```.vscode`` folder. eg ```c:\Projects\hello\.vscode\launch.json```.
 
