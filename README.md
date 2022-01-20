@@ -29,4 +29,36 @@ In ```data\user-data\User\settings.json``` (optional)
 
 ```
 
+* **vs code project settings**
+
 In vs code, goto file, save workspace as, and save to your project's directory. eg ```c:\Projects\hello\workspace.code-workspace```.
+
+Also create a folder ```.vscode``` in your project folder. 
+
+You can also create an optional ```tasks.json``` in the ```.vscode folder```. eg ```c:\Projects\hello\.vscode\tasks.json```.
+
+```json
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"command": "build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "rust: cargo build",
+			"presentation": {
+				"reveal": "silent",
+				"revealProblems": "onProblem",
+				"close": true,
+				"clear": true 
+			}
+		}
+	]
+}
+```
