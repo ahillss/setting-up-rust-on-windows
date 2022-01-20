@@ -80,8 +80,6 @@ Create ```launch.json```. eg ```c:\Projects\hello\.vscode\launch.json```.
             "environment": [],
             "externalConsole": true,
             "env" : {
-                //"RUST_BACKTRACE" : "1",
-                //"RUST_LOG": "debug",
             }
         },
         
@@ -126,8 +124,6 @@ Instead of storing launch in the project, you store it in the global settings fi
                 "environment": [],
                 "externalConsole": true,
                 "env" : {
-                    //"RUST_BACKTRACE" : "1",
-                    //"RUST_LOG": "debug",
                 }
             },
             
