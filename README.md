@@ -165,7 +165,7 @@ By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.r
 
 By downloading the **Zip** verson, it can be made portable by creating a folder called `data` inside its directory (instead of using the windows `user/roaming` folders).
  
-### Creating a VSBuildTools Offline Installer
+### Creating a VS Build Tools Offline Installer
 
 ```vs_buildtools.exe  --layout d:\localVScache --includeRecommended --lang en-US --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.VC.ASAN --add Microsoft.VisualStudio.Component.TestTools.BuildTools```
 
