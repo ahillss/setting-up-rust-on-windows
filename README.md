@@ -171,7 +171,7 @@ By downloading the `Zip` verson, it can be made portable by creating a folder ca
  
 ### Creating a VS Build Tools Offline Installer
 
-```vs_buildtools.exe  --layout d:\localVScache --includeRecommended --lang en-US --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.VC.ASAN --add Microsoft.VisualStudio.Component.TestTools.BuildTools```
+```vs_buildtools.exe --layout d:\localVScache --includeRecommended --lang en-US --add Microsoft.VisualStudio.Component.VC.CoreBuildTools --add Microsoft.VisualStudio.Component.VC.Redist.14.Latest --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.TestTools.BuildTools --add Microsoft.VisualStudio.Component.VC.ASAN```
 
 More information:
 
