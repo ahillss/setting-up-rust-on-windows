@@ -155,7 +155,7 @@ Haven't tried it with rustup, but the link is [available here](https://aka.ms/vs
 
 ### Moving RustUp and Cargo to a different directory
 
-By default it is installed in `%USERPROFILE%\.cargo` and `%USERPROFILE%\.rustup`. You move it to a more convient location by adding/modifying the windows environment variables:
+By default it is installed in `%USERPROFILE%\.cargo` and `%USERPROFILE%\.rustup`. You can move it to a more convient location by adding/modifying the windows environment variables:
 
 * `CARGO_HOME` (eg set to `c:\programs\cargo`)
 * `RUSTUP_HOME` (eg set to `c:\programs\rustup`)
