@@ -6,7 +6,7 @@ Quick guide to setting up Rust on Windows.
 
 * **rust up** - x86_64-pc-windows-msvc from [Other Rust Installation Methods](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
-* **vs build tools** - *rust up* should download this for you, select and install **Desktop Development with C++**
+* **vs build tools** - *rust up* should download the 2019 version for you, select and install **Desktop Development with C++**, the link is also available here [2019 vs build tools](https://aka.ms/vs/16/release/vs_buildtools.exe), heres also the [2022 vs build tools](https://aka.ms/vs/17/release/vs_buildtools.exe) (not sure it works with rust up)
 
 * **vs code** - from [vscode website](https://code.visualstudio.com/Download). The **Zip** verson can be made portable by creating a folder called **data** inside its directory (instead of using the windows "user" and "roaming" folders).
 
@@ -22,11 +22,7 @@ By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.r
 
 ## Creating a VSBuildTools Offline Installer (Optional)
 
-### 2022
-
-```vs_buildtools.exe --layout c:\localVScache --add Microsoft.VisualStudio.Component.VC.14.29.16.11.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK.19041 --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.TestTools.BuildTools --add Microsoft.VisualStudio.Component.VC.ASAN --includeRecommended --lang en-US```
-
-### 2019
+```vs_buildtools.exe  --layout d:\localVScache --includeRecommended --lang en-US --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.VC.ASAN --add Microsoft.VisualStudio.Component.TestTools.BuildTools```
 
 More information:
 
