@@ -22,7 +22,11 @@ By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.r
 
 ## Creating a VSBuildTools Offline Installer (Optional)
 
+### 2022
+
 ```vs_buildtools.exe --layout c:\localVScache --add Microsoft.VisualStudio.Component.VC.14.29.16.11.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK.19041 --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.TestTools.BuildTools --add Microsoft.VisualStudio.Component.VC.ASAN --includeRecommended --lang en-US```
+
+# 2019
 
 More information:
 
