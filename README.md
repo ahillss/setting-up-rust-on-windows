@@ -151,7 +151,7 @@ Instead of storing launch in the project, you store it in the global settings fi
 
 ### Rust Extension (for vscode)
 
-An alternate extension to the Rust Analyzer is the [Rust Extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust). But inferred types weren't showing up for me when I tried it.
+An alternate extension to the Rust Analyzer is the [Rust Extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust). But the types signatures didn't show up for me when I tried it.
 
 ### VS Build Tools 2022
 
