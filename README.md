@@ -6,7 +6,7 @@ Quick guide to setting up Rust on Windows.
 
 * **rust up** - x86_64-pc-windows-msvc from [Other Rust Installation Methods](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
-* **vs build tools** - *rust up* should download the 2019 version for you, select and install **Desktop Development with C++**, the link is also available here [2019 vs build tools](https://aka.ms/vs/16/release/vs_buildtools.exe), heres also the [2022 vs build tools](https://aka.ms/vs/17/release/vs_buildtools.exe) (not sure it works with rust up)
+* **vs build tools** - *rust up* should download the 2019 version for you, select and install **Desktop Development with C++**, the link is also available here [2019 vs build tools](https://aka.ms/vs/16/release/vs_buildtools.exe).
 
 * **vs code** - from [vscode website](https://code.visualstudio.com/Download). The **Zip** verson can be made portable by creating a folder called **data** inside its directory (instead of using the windows "user" and "roaming" folders).
 
@@ -165,6 +165,10 @@ Instead of storing launch in the project, you store it in the global settings fi
 ```
 
 ## Misc
+
+### vs build tools 2022
+
+Haven't tried it, but the link is here: [2022 vs build tools](https://aka.ms/vs/17/release/vs_buildtools.exe).
 
 ### Breakpoints
 
