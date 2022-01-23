@@ -4,13 +4,13 @@ Quick guide to setting up Rust on Windows.
 
 ## Installing
 
-* **rust up** - x86_64-pc-windows-msvc from [Other Rust Installation Methods](https://forge.rust-lang.org/infra/other-installation-methods.html)
+* **rust up** - download `x86_64-pc-windows-msvc` from [Other Rust Installation Methods](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
-* **vs build tools** - *rust up* should download the 2019 version for you, select and install `Desktop Development with C++`, the link is also [available here](https://aka.ms/vs/16/release/vs_buildtools.exe).
+* **vs build tools** - *rust up* will automatically download the 2019 version for you, select and install `Desktop Development with C++`, the link is also [available here](https://aka.ms/vs/16/release/vs_buildtools.exe).
 
-* **vs code** - from [vscode website](https://code.visualstudio.com/Download)
+* **vs code** - [download link](https://code.visualstudio.com/Download)
 
-* **vs code extensions** - [better toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml), [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and [rust analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) (the alternate extension [rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) wasn't showing inferred types for me)
+* **vs code extensions** - [Better Toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml), [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) (the alternate extension [Rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) wasn't showing inferred types for me)
 
 ## Project Config
 
