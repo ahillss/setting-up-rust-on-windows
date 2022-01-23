@@ -6,7 +6,7 @@ Quick guide to setting up Rust on Windows.
 
 * **rust up** - x86_64-pc-windows-msvc from [Other Rust Installation Methods](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
-* **vs build tools** - *rust up* should download the 2019 version for you, select and install **Desktop Development with C++**, the link is also [available here](https://aka.ms/vs/16/release/vs_buildtools.exe).
+* **vs build tools** - *rust up* should download the 2019 version for you, select and install `Desktop Development with C++`, the link is also [available here](https://aka.ms/vs/16/release/vs_buildtools.exe).
 
 * **vs code** - from [vscode website](https://code.visualstudio.com/Download)
 
