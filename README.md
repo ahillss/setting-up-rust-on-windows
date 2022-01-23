@@ -33,7 +33,7 @@ More information:
 
 ### workspace
 
-In vs code, goto file, save workspace as, and save to your project's directory. eg ```c:\Projects\hello\workspace.code-workspace```.
+In vs code, click `file -> save workspace as`, and save to your project's directory. eg ```c:\Projects\hello\workspace.code-workspace```.
 
 ### compile using tasks (optional)
 
