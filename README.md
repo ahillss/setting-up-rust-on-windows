@@ -12,7 +12,7 @@ Quick guide to setting up Rust on Windows.
 
 * **vs code extensions** - [better toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml), [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and [rust analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) (the alternate extension [rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) wasn't showing inferred types for me)
 
-## Moving Rust Up
+## Moving RustUp/Cargo to a different directory (Optional)
 
 By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.rustup```. You move it to a more convient location by adding/modifying the windows environment variables:
 
@@ -20,7 +20,7 @@ By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.r
 * ```RUSTUP_HOME``` (eg set to ```c:\programs\rustup```)
 * ```PATH``` (eg add ```c:\programs\cargo\bin```)
 
-## Making VS Build Tools Offline Installer
+## Creating a VSBuildTools Offline Installer (Optional)
 
 ```vs_buildtools.exe --layout c:\localVScache --add Microsoft.VisualStudio.Component.VC.14.29.16.11.x86.x64 Microsoft.VisualStudio.Component.Windows10SDK.19041 Microsoft.VisualStudio.Component.VC.CMake.Project Microsoft.VisualStudio.Component.TestTools.BuildTools Microsoft.VisualStudio.Component.VC.ASAN --includeRecommended --lang en-US```
 
