@@ -27,7 +27,7 @@ By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.r
 More information:
 
 * [Create an offline installation of Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/create-an-offline-installation-of-visual-studio?view=vs-2022)
-* [Visual Studio Build Tools component directory](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2022).
+* [Visual Studio Build Tools component directory](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2022)
 
 ## Project Config
 
