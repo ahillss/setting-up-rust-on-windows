@@ -10,7 +10,7 @@ Quick guide to setting up Rust on Windows.
 
 * **vs code** - [download link](https://code.visualstudio.com/Download)
 
-* **vs code extensions** - [Better Toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml), [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) (the alternate extension [Rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) wasn't showing inferred types for me)
+* **vs code extensions** - [Better Toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml), [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
 
 ## Project Config
 
@@ -148,6 +148,10 @@ Instead of storing launch in the project, you store it in the global settings fi
 ```
 
 ## Misc
+
+### Rust Extension (for vscode)
+
+An alternate extension to the Rust Analyzer is the [Rust Extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust). But inferred types weren't showing up for me when I tried it.
 
 ### VS Build Tools 2022
 
