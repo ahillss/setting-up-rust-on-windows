@@ -149,11 +149,11 @@ Instead of storing launch in the project, you store it in the global settings fi
 
 ## Misc
 
-### vs build tools 2022
+### VS Build Tools 2022
 
 Haven't tried it with rustup, but the link is here: [vs build tools 2022](https://aka.ms/vs/17/release/vs_buildtools.exe).
 
-### Moving RustUp/Cargo to a different directory (Optional)
+### Moving RustUp and Cargo to a different directory
 
 By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.rustup```. You move it to a more convient location by adding/modifying the windows environment variables:
 
@@ -165,7 +165,7 @@ By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.r
 
 By downloading the **Zip** verson, it can be made portable by creating a folder called `data` inside its directory (instead of using the windows `user/roaming` folders).
  
-### Creating a VSBuildTools Offline Installer (Optional)
+### Creating a VSBuildTools Offline Installer
 
 ```vs_buildtools.exe  --layout d:\localVScache --includeRecommended --lang en-US --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.VC.ASAN --add Microsoft.VisualStudio.Component.TestTools.BuildTools```
 
