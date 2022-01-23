@@ -161,7 +161,7 @@ By default it is installed in ```%USERPROFILE%\.cargo``` and ```%USERPROFILE%\.r
 * `RUSTUP_HOME` (eg set to `c:\programs\rustup`)
 * `PATH` (eg add `c:\programs\cargo\bin`)
 
-### Portal vs code
+### Portable VS Code
 
 By downloading the **Zip** verson, it can be made portable by creating a folder called `data` inside its directory (instead of using the windows `user/roaming` folders).
  
@@ -180,9 +180,9 @@ I could only get breakpoints working by going to the ```main``` function in my p
 
 ### Modifying external crates
 
-If you have an issue with an external crate library, you can find its source from somewhere in ```.cargo\library\``` and copy it else where and modify it.
+If you have an issue with an external crate library, you can find its source from somewhere in `.cargo\library\` and copy it else where and modify it.
 
-Then in your ```cargo.toml``` file add something like:
+Then in your `cargo.toml` file add something like:
 
 ```toml
 [patch.crates-io]
