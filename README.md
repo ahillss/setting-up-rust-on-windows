@@ -149,10 +149,6 @@ Instead of storing launch in the project, you store it in the global settings fi
 
 ## Misc
 
-### Rust Extension (for vscode)
-
-An alternate extension to the Rust Analyzer is the [Rust Extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust). But the types signatures didn't show up for me when I tried it.
-
 ### VS Build Tools 2022
 
 Haven't tried it with rustup, but the link is [available here](https://aka.ms/vs/17/release/vs_buildtools.exe).
@@ -192,3 +188,6 @@ Then in your `cargo.toml` file add something like:
 [patch.crates-io]
 gilrs-core = { path = "../crates/gilrs-core-0.3.1" }
 ```
+### Updating Rust and Cargo
+
+```rustup update```
