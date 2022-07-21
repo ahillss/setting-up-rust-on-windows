@@ -163,7 +163,7 @@ By default it is installed in `%USERPROFILE%\.cargo` and `%USERPROFILE%\.rustup`
 
 ### Portable VS Code
 
-By downloading the `Zip` verson, it can be made portable by creating a folder called `data` inside its directory.
+By downloading the `Zip` version, it can be made portable by creating a folder called `data` inside its directory.
  
 ### Creating a VS Build Tools Offline Installer
 
